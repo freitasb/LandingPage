@@ -1,0 +1,346 @@
+@media (max-width: 1338px)and (min-width: 918px){
+  .conteudo{
+    max-width: 700px;
+    margin: auto;
+  }
+  .options li{
+    max-width: 100px;
+  }
+
+  .masculino, .feminino{
+    max-width: 100px;
+  }
+
+  .botoes button{
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 1000px)and (min-width: 920px){
+  .conteudo{
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .text{
+    max-width: 300px;
+    font-size: 10px;
+  }
+
+  .masculino, .feminino{
+    max-width: 70px;
+  }
+
+  .botoes button{
+    max-width: 160px;
+  }
+
+  .tituloCadastro{
+    margin-bottom: 30px;
+  }
+  
+}
+
+@media (max-width: 920px)and (min-width: 600px){
+  .conteudo{
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .linha{
+    visibility: hidden;
+  }
+
+  #termos{
+    margin-top: 55px;
+  }
+
+  .text{
+    max-width: 400px;
+    font-size: 10px;
+  }
+
+  .masculino, .feminino{
+    margin-top: 20px;
+  }
+
+  .feminino{
+    margin-left: 62px;
+  }
+
+  .tituloCadastro{
+    margin: 30px 0;
+  }
+
+  .options{
+    visibility: hidden;
+  }
+
+  .botoes button{
+    margin: auto;
+    margin-left: 60px;
+  }
+
+  .socialNet img{
+    width: 20px;
+    height:20px;
+    justify-content: center;
+  }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'GothamHTF-Book',Arial,Helvetica,sans-serif !important;
+    background-color: #000;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.fino{
+    background-color: #e0ff01;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.fino a{
+    text-decoration: none;
+    color: #000;
+}
+.busca{
+  display: flex;
+  line-height: center;
+  vertical-align: center;
+  align-items: center;
+  height: 50px;
+  padding: 15px 20px;
+  justify-content: space-between;
+}
+
+.conteudoBusca{
+  width: 162px;
+  color: #fff; 
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 5px;
+}
+
+.barra input{
+  margin-left: 30px;
+  display: flex;
+  width: 700px;
+}
+
+.texto{
+  background-color: #000;
+  text-shadow: none;
+  text-decoration: none;
+  border: 0;
+  border-color: transparent;
+  vertical-align: baseline;
+}
+
+.icons{
+  display: flex;
+}
+
+.euro{
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.iconp{
+  margin-top: 10px;
+  margin-right: 16px;
+}
+
+.shop{
+  margin-top: 13px;
+}
+
+.options{
+  background-color: #141414;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.options li {
+  list-style: none;
+  display: inline-block;
+  font-size: 13px;
+  padding: 0px 10px;
+  width: 160px;
+}
+
+.options a{
+  text-decoration: none;
+  color: #fff;
+  width: 160px;
+}
+
+.options .promo{
+  color:#e0ff01;
+}
+
+.options li:hover, a:hover {
+  background-color: #e0ff01;
+  color: #000;
+}
+
+section{
+  width: 900px;
+  margin: 0px 225px;
+  padding: 50px 30px;
+}
+
+.bf{
+  color:#e0ff01;
+  padding: 0 0 10px;
+  height: 52px;
+  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.descricao{
+  font-size: 15px;
+  padding: 20px 0 15px;
+  height: 79px;
+  text-align: center;
+}
+
+.linha{
+  text-decoration: underline;
+  margin: 14px 0 0;
+  height: 2px;
+  color: #fff;
+  background-color: #fff;
+}
+
+.tituloCadastro{
+  height: 54px;
+  padding: 20px 0;
+  color:#e0ff01;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height:54px;
+}
+
+.email{
+  margin: 0;
+  padding: 0;
+}
+
+.etiqueta{
+  height: 16px;
+  width : 35px;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.conjuntoEmail{
+  margin-bottom: 10px;
+  height: 42px;
+}
+
+.conjuntoEmail input{
+  width: 485px;
+  text-transform: uppercase;
+  height: 32px;
+}
+
+.feminino, .masculino{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid;
+  width: 167px;
+  height: 37.5px;
+}
+
+.concorde{
+  color: #555;
+  font-size: 14px;
+}
+
+.concorde a{
+  text-decoration: underline;
+  color: #555;
+}
+
+.botoes {
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+.botoes button{
+  background-color: #e0ff01;
+
+  font-size: 15px;
+  width: 297px;
+  height: 46px;
+}
+
+.botoes button a{
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer{
+  height: 50px;
+  color: #000;
+  background-color: #e0ff01;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+}
+
+.footlogo{
+  margin: 0 15px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.socialNet a{
+  justify-content: space-between;
+  padding: 10px 27px;
+  line-height: 50px;
+}
+
+.socialNet li{
+  line-height: 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.by{
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
